@@ -140,8 +140,8 @@ class Parser:
 
     def _find_neg_nums(self, tokens):
         """
-        Checks if '-' is in the beginning of the expression before number or
-        if it is after bracket '(' before number. If so, appends '-' to the number.
+        Checks if '-' is at the beginning of the expression and followed by a number or
+        if it is after a bracket '(' before a number. If so, appends '-' to the number.
         """
         prev_token = ''
         final_token_list = []
