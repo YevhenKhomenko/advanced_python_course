@@ -1,1 +1,1 @@
-Repository for advenced python course homework.
+Repository for advenced python course homework and tutorials.
